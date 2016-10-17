@@ -1,0 +1,321 @@
+html {
+  margin: 0em;
+  padding: 0em;
+  font-family: 'Futura', 'Geneva', 'Taahoma', sans-serif;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: 'Taahoma', sans-serif;
+}
+
+header h1, {
+	margin: 2em;
+}
+
+h2 {
+  position: absolute;
+  top: 1em;
+  left: 11em;
+  font-style: italic;
+}
+
+h3 {
+  margin-bottom: 10%;
+}
+
+header {
+  padding: 1em 1em 1em 4em;
+  background-color: #375dce;
+  color: white;
+  margin-bottom: 1em;
+}
+
+#menu > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menu > ul > li {
+  display: inline-block;
+  margin: .6em 0em 1em 0em;
+}
+
+#menu
+	{
+		position: absolute;
+		right: 4em;
+		top: 0;
+	}
+
+	#menu ul
+	{
+		display: inline-block;
+		padding: 0em 0em 0em 1em;
+		text-align: center;
+	}
+
+	#menu li
+	{
+		display: inline-block;
+		color: #2E8A2E;
+	}
+
+	#menu .current_page_item a
+	{
+		text-decoration: underline;
+	}
+
+#menu > ul > li > a:not(hover) {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #5c81e8;
+  transition: 0.3s;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+#menu > ul > li > a:hover {
+  background-color: #375dce;
+  transition: 0.3s;
+}
+
+.wrapper
+{
+	overflow: hidden;
+	padding: 1em 0em 1em 0em;
+	background: #FFF;
+}
+
+#wrapper1
+{
+	background: #FFF;
+}
+
+#wrapper2
+{
+	overflow: hidden;
+	padding: 1em 0em 1em 0em;
+	background: #85E085;
+	padding: 1em 0em;
+}
+
+#page-wrapper
+{
+	overflow: hidden;
+}
+
+#page
+{
+}
+
+#page .title h2
+{
+	font-size: 1.60em;
+}
+
+#page .h3
+{
+	color: #FFB547;
+}
+
+#page-wrapper2
+{
+	overflow: hidden;
+	background: #EBFAEB;
+	padding: 1em 0em;
+}
+
+#page2
+{
+}
+
+#page2 .title h2
+{
+	font-size: 1.60em;
+}
+
+#page2 .h3
+{
+	color: #FFB547;
+}
+
+#content
+{
+	float: left;
+	width: 55%;
+	padding-right: 50px;
+	border-right: 1px solid rgba(0,0,0,.1);
+  text-align: justify;
+}
+
+#sidebar
+{
+	float: right;
+	width: 33%;
+  margin-right: 3%
+}
+
+#sidebar h3
+{
+	padding-bottom: .50em;
+	font-weight: 300;
+}
+
+#sidebar .section
+{
+	margin-top: 3em;
+}
+
+#footer
+{
+	text-align: center;
+  background-color: : #97aeef;
+}
+
+#copyright
+{
+	overflow: hidden;
+	padding: 1em 0em;
+	border-top: 1px solid rgba(255,255,255,0.08);
+	text-align: center;
+}
+
+#copyright p
+{
+	letter-spacing: 1px;
+	font-size: 0.90em;
+}
+
+#copyright a
+{
+	text-decoration: none;
+	color: rgba(255,255,255,0.8);
+}
+
+#two-column
+{
+	padding-top: 3em;
+}
+
+#two-column .box1
+{
+	float: left;
+	width: 49%;
+}
+
+#two-column .box2
+{
+	float: right;
+	width: 46%;
+}
+
+
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: #FFFFFF;
+	font-size: 12pt;
+}
+
+h1, h2, h3
+{
+	margin: 0;
+	padding: 0;
+}
+
+p, ol, ul
+{
+	margin-top: 0;
+}
+
+ol, ul
+{
+	padding: 0;
+	list-style: none;
+}
+
+p
+{
+	line-height: 150%;
+}
+
+a
+{
+	color: #E85D4B;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+
+.container:not(#header)
+{
+  padding-left: 5%;
+  padding-right: 1%;
+	width: 94%;
+}
+
+#header-wrapper
+{
+	overflow: hidden;
+}
+
+#header
+{
+	position: relative;
+}
+
+/* Credit to Professor Kramer for the base for the section of CSS styling below */
+blockquote {
+	padding: 1em;
+	margin-left: 0;
+	position: relative;
+}
+blockquote:after {
+	  content: "";
+	  background-color: #5c81e8;
+	  opacity: 0.25;
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  position: absolute;
+	  z-index: -1;
+	  border-radius: 8px;
+
+}
+
+#learning-img {
+  height: 100%;
+  width: 100%;
+}
+
+#learning2-img {
+  height: 95%;
+  width: 95%;
+}
+
+#learning-img-subtitle {
+  text-align: center;
+}
+
+#resources-list > li > a:not(hover) {
+  display: inline-block;
+  text-decoration: none;
+  color: #3389ff;
+}
+
+#resources-list > li > a:hover {
+  text-decoration: underline;
+}

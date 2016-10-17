@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+  <head>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+    <title>LearnGlobal Contact</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="STYLESHEET" type="text/css" href="css/contact.css" />
+    <script type='text/javascript' src='../js/gen_validatorv31.js'></script>
+  </head>
+  <body>
+    <div id="header-wrapper">
+      <div id="header" class="container">
+        <header>
+          <h1>LearnGlobal</h1>
+          <h2>Learning Together In The World </h2>
+        </header>
+        <div id="menu">
+          <ul>
+            <!--The menu system uses visual clues for navigation. The current tab is coloured.-->
+            <!--In addition to the home page, the "Testimonials", "Videos" and "Contact Us" tabs are active.-->
+            <!--Inactive tabs have non-working "#" link addresses.-->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li class="current_page_item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="page-wrapper">
+    	<div id="page" class="container">
+    		<div id="content">
+          <h3>Want to chat? So do we.</h3><br>
+          <p>We'd love to be in touch.  If you'd like more information, or have any ideas, feedback or suggestions, we'd love to hear from you. Simply fill out the form to the right, and someone from the Learn Global team will reach out to you soon. Thanks! </p>
+    		</div>
+    		<div id="sidebar">
+    			<div class="title">
+            <form id='contactus' action='#' method='post' accept-charset='UTF-8'>
+              <fieldset >
+                <legend>Contact us</legend>
+
+                <div class='short_explanation'>* required fields</div>
+
+                <div class='ccontainer'>
+                    <label for='name' >Your Full Name*: </label><br/>
+                    <input type='text' name='name' id='name'maxlength="50"><br/>
+                    <span id='contactus_name_errorloc' class='error'></span>
+                </div>
+                <div class='ccontainer'>
+                  <label for='email' >Email Address*:</label><br/>
+                  <input type='text' name='email' id='email' maxlength="50"><br/>
+                  <span id='contactus_email_errorloc' class='error'></span>
+                </div>
+
+                <div class='ccontainer'>
+                  <label for='message' >Message:</label><br/>
+                  <span id='contactus_message_errorloc' class='error'></span>
+                  <textarea rows="10" cols="50" name='message' id='message'></textarea>
+                </div>
+
+
+                <div class='ccontainer'>
+                  <input type='submit' name='Submit' value='Submit' />
+                </div>
+
+              </fieldset>
+              </form>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    </body>
+</html>

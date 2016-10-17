@@ -1,0 +1,92 @@
+#contactus {
+  font-family: 'Geneva', sans-serif;
+}
+
+#contactus fieldset
+{
+  width:320px;
+  padding:20px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #5c81e8;
+}
+
+#contactus legend
+{
+  font-size: 1.3em;
+  font-weight:bold;
+  color:white;
+  float: left;
+  width: 100%;
+  padding: 0 0 1em 0;
+}
+
+#contactus label
+{
+  font-size:0.8em;
+  font-weight: bold;
+  color: white;
+}
+
+#contactus input[type="text"],textarea
+{
+  font-size: 0.8em;
+  line-height:140%;
+  color : #000;
+  padding : 3px;
+  border : 1px solid #999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#contactus input[type="text"]
+{
+  height:18px;
+  width:220px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+
+#contactus input[type="submit"]
+{
+   width:100px;
+   height:30px;
+   padding-left:0px;
+   border-radius: 5px;
+   background-color: #fff;
+   border: 0;
+}
+
+#contactus textarea
+{
+  height:120px;
+  width:310px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+   border-radius: 8px;
+}
+
+#contactus input[type="text"]:focus,textarea:focus
+{
+  color : #009;
+  border : 1px solid #990000;
+  background-color : #ffff99;
+  font-weight:bold;
+}
+
+#contactus .ccontainer
+{
+   margin-top:8px;
+   margin-bottom: 10px;
+
+}
+
+#contactus .short_explanation
+{
+   font-size: 0.6em;
+   color:#333;
+   color: white;
+}
