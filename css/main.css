@@ -1,27 +1,16 @@
 html {
   margin: 0em;
   padding: 0em;
-  font-family: 'Futura', 'Geneva', 'Taahoma', sans-serif;
+  font-family: 'Futura', sans-serif;
   box-sizing: border-box;
 }
 
-p {
-  font-family: 'Taahoma', sans-serif;
-}
-
-header h1, {
-	margin: 2em;
-}
-
-h2 {
-  position: absolute;
-  top: 1em;
-  left: 11em;
-  font-style: italic;
-}
-
-h3 {
-  margin-bottom: 10%;
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: #FFFFFF;
+	font-size: 12pt;
 }
 
 header {
@@ -31,8 +20,44 @@ header {
   margin-bottom: 1em;
 }
 
-nav ul li {
+#skiptomaincontent:not(focus) {
   display: inline-block;
+  position: absolute;
+  padding: 5px 5px 30px 5px;
+  bottom: 100%;
+  left: 5%;
+  top: -40%;
+  transition: 7s;
+  border-radius: 5px;
+}
+
+#skiptomaincontent:focus {
+  position: absolute;
+  transition: 0.2s;
+  padding: 5px 5px 30px 5px;
+  top: 0;
+  left: 5%;
+  bottom: 80%;
+  background-color: #e5d957;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#header-wrapper
+{
+	overflow: hidden;
+}
+
+#header
+{
+	position: relative;
+}
+
+h2 {
+  position: absolute;
+  top: 1em;
+  left: 11em;
+  font-style: italic;
 }
 
 nav
@@ -50,12 +75,16 @@ nav ul
 	text-align: center;
 }
 
+nav ul li {
+  display: inline-block;
+}
+
 nav .current_page_item a
 {
 	text-decoration: underline;
 }
 
-nav > ul > li > a:not(hover) {
+nav ul li a:not(hover) {
   display: inline-block;
   text-decoration: none;
   color: #fff;
@@ -66,69 +95,14 @@ nav > ul > li > a:not(hover) {
   margin: .6em 0em 1em 0em;
 }
 
-nav > ul > li > a:hover {
+nav ul li a:hover {
   background-color: #375dce;
   transition: 0.3s;
 }
 
-.wrapper
-{
-	overflow: hidden;
-	padding: 1em 0em 1em 0em;
-	background: #FFF;
-}
-
-#wrapper1
-{
-	background: #FFF;
-}
-
-#wrapper2
-{
-	overflow: hidden;
-	padding: 1em 0em 1em 0em;
-	background: #85E085;
-	padding: 1em 0em;
-}
-
-#page-wrapper
-{
-	overflow: hidden;
-}
-
-#page
-{
-}
-
-#page .title h2
-{
-	font-size: 1.60em;
-}
-
-#page .h3
-{
-	color: #FFB547;
-}
-
-#page-wrapper2
-{
-	overflow: hidden;
-	background: #EBFAEB;
-	padding: 1em 0em;
-}
-
-#page2
-{
-}
-
-#page2 .title h2
-{
-	font-size: 1.60em;
-}
-
-#page2 .h3
-{
-	color: #FFB547;
+p {
+  padding-top: 3%;
+  font-family: 'Taahoma', sans-serif;
 }
 
 #content
@@ -136,7 +110,7 @@ nav > ul > li > a:hover {
 	float: left;
 	width: 55%;
 	padding-right: 50px;
-	border-right: 1px solid rgba(0,0,0,.1);
+	border-right: 1px solid #e0e0e0;
   text-align: justify;
 }
 
@@ -158,17 +132,10 @@ nav > ul > li > a:hover {
 	margin-top: 3em;
 }
 
-#footer
-{
-	text-align: center;
-  background-color: : #97aeef;
-}
-
 #copyright
 {
 	overflow: hidden;
 	padding: 1em 0em;
-	border-top: 1px solid rgba(255,255,255,0.08);
 	text-align: center;
 }
 
@@ -186,7 +153,7 @@ nav > ul > li > a:hover {
 
 #two-column
 {
-	padding-top: 3em;
+	padding-top: 2em;
 }
 
 #two-column .box1
@@ -199,20 +166,6 @@ nav > ul > li > a:hover {
 {
 	float: right;
 	width: 46%;
-}
-
-
-html, body
-{
-	height: 100%;
-}
-
-body
-{
-	margin: 0px;
-	padding: 0px;
-	background: #FFFFFF;
-	font-size: 12pt;
 }
 
 h1, h2, h3
@@ -242,12 +195,6 @@ a
 	color: #E85D4B;
 }
 
-a:hover
-{
-	text-decoration: none;
-}
-
-
 .container:not(#header)
 {
   padding-left: 5%;
@@ -255,14 +202,29 @@ a:hover
 	width: 94%;
 }
 
-#header-wrapper
-{
-	overflow: hidden;
+#learning-img {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 10%;
 }
 
-#header
-{
-	position: relative;
+#learning2-img {
+  height: 95%;
+  width: 95%;
+}
+
+#learning-img-subtitle {
+  text-align: center;
+}
+
+#resources-list li a:not(hover) {
+  display: inline-block;
+  text-decoration: none;
+  color: #3389ff;
+}
+
+#resources-list li a:hover {
+  text-decoration: underline;
 }
 
 /* Credit to Professor Kramer for the base for the section of CSS styling below */
@@ -271,6 +233,7 @@ blockquote {
 	margin-left: 0;
 	position: relative;
 }
+
 blockquote:after {
 	  content: "";
 	  background-color: #5c81e8;
@@ -283,51 +246,4 @@ blockquote:after {
 	  z-index: -1;
 	  border-radius: 8px;
 
-}
-
-#learning-img {
-  height: 100%;
-  width: 100%;
-}
-
-#learning2-img {
-  height: 95%;
-  width: 95%;
-}
-
-#learning-img-subtitle {
-  text-align: center;
-}
-
-#resources-list > li > a:not(hover) {
-  display: inline-block;
-  text-decoration: none;
-  color: #3389ff;
-}
-
-#resources-list > li > a:hover {
-  text-decoration: underline;
-}
-
-#skiptomaincontent:not(focus) {
-  display: inline-block;
-  position: absolute;
-  padding: 5px 5px 30px 5px;
-  bottom: 100%;
-  left: 5%;
-  top: -40%;
-  transition: 7s;
-  border-radius: 5px;
-}
-
-#skiptomaincontent:focus {
-  position: absolute;
-  transition: 0.2s;
-  padding: 5px 5px 30px 5px;
-  top: 0;
-  left: 5%;
-  bottom: 80%;
-  background-color: #e5d957;
-  font-weight: bold;
-  border-radius: 5px;
 }

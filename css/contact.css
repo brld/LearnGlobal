@@ -70,14 +70,13 @@
   font-weight:bold;
 }
 
-#contactus .ccontainer
+.ccontainer
 {
    margin-top:8px;
    margin-bottom: 10px;
-
 }
 
-#contactus .short_explanation
+.short_explanation
 {
    font-size: 0.6em;
    color:#333;
@@ -92,18 +91,22 @@ table {
 	border:#ccc 1px solid;
   border-radius: 5px;
 }
+
 caption {
   color: #000;
   font-size: 15px;
 }
+
 table th {
 	padding:21px 25px 22px 25px;
 
 }
+
 table tr {
 	text-align: center;
 	padding-left:20px;
 }
+
 table td {
 	padding:18px;
 	background: #5c81e8;
