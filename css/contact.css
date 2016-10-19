@@ -35,19 +35,14 @@
   color : #000;
   padding : 3px;
   border : 1px solid #999;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -khtml-border-radius: 5px;
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 #contactus input[type="text"]
 {
   height:18px;
   width:220px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-   border-radius: 5px;
+  border-radius: 5px;
 }
 
 #contactus input[type="submit"]
@@ -64,9 +59,7 @@
 {
   height:120px;
   width:310px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-   border-radius: 8px;
+  border-radius: 8px;
 }
 
 #contactus input[type="text"]:focus,textarea:focus
@@ -89,4 +82,29 @@
    font-size: 0.6em;
    color:#333;
    color: white;
+}
+
+table {
+	color:#fff;
+	font-size:13px;
+	background:#375dce;
+  margin-top: 20px;
+	border:#ccc 1px solid;
+  border-radius: 5px;
+}
+caption {
+  color: #000;
+  font-size: 15px;
+}
+table th {
+	padding:21px 25px 22px 25px;
+
+}
+table tr {
+	text-align: center;
+	padding-left:20px;
+}
+table td {
+	padding:18px;
+	background: #5c81e8;
 }
